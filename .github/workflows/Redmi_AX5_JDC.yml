@@ -32,7 +32,7 @@ jobs:
       fail-fast: false
       #max-parallel: 2
       matrix:
-        TARGET: [IPQ60XX-WIFI-NO]
+        TARGET: [Redmi_AX5_JDC_WIFI_NO, Redmi_AX5_JDC_WIFI_YES]
         REPO_INFO:
           - {SOURCE: coolsnowwolf/lede, BRANCH: master, NAME: LEDE, SUFFIX: LEDE}
           - {SOURCE: coolsnowwolf/lede, BRANCH: master, NAME: LEDE-FW4, SUFFIX: LEDE-FW4}
