@@ -32,7 +32,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [JDC_AX5.txt, JDC_AX1800_AX6600.txt]
+        CONFIG: [JDC_AX5, JDC_AX1800_AX6600]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
